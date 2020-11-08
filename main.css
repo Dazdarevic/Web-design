@@ -1,0 +1,1253 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #030303;
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    width: 1160px;
+    margin: 0 auto;
+    _outline:3px dotted red;
+}
+ul { list-style: none;}
+a {text-decoration: none;}
+/**********************************************
+                HEADER start
+**********************************************/
+header {
+    _outline:1px dotted green;
+    height: 450px;
+    width: 100%;
+    background-color:white;
+}
+.active-lang {
+    background-color: #104e8b;
+    color: white !important;
+    border: 2px solid #104e8b;
+    border-radius: 10px;
+    padding: 2px 4px !important;
+    margin-left: 3px;
+    cursor: default;
+}
+.active-lang:hover {
+    background-color: #104e8b !important;
+    color: white !important;
+    border: 2px solid #104e8b !important;
+    border-radius: 10px;
+    padding: 2px 4px !important;
+    margin-left: 3px;
+}
+.engleski {
+    background-color: white;
+    color: #104e8b !important;
+    border: 2px solid #104e8b;
+    border-radius: 10px;
+    padding: 2px 4px !important;
+    margin-left: 3px;
+}
+.logo {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+header.index { height:100px;}
+.width-header {
+    width: 1290px;
+    margin: 0 auto;
+    background-color: white;
+    _outline: 1px solid red;
+}
+header .container {
+    _outline: 10px dotted pink;
+    width: 1160px;
+    font-size: 18px !important;
+    background-color: white;
+}
+.navbar {
+    height:100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul li a {
+    color: #4a4a4a;
+    padding: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.active a { background-color: white; color: blue !important;}
+.navbar .nav-links li.active a:hover {
+    background-color: white;
+    color: blue;
+    cursor: default;
+}
+.navbar ul li {
+    color: #1a1a1a;
+    padding:16px 0 18px 0;
+}
+.navbar ul.nav-links { padding-left: 100px !important;}
+.navbar ul i { padding-right: 6px;}
+.navbar ul li a:hover {
+    background-color: white;
+    color: blue;
+    transition: .1s;
+}
+.navbar ul li a:active {
+    background-color: white;
+    color: black;
+}
+.width {
+    width:1290px;
+    margin: 0 auto;
+}
+.header-image {
+    width:100%;
+    height: 350px;
+    _outline: 1px solid green;
+    background-image:linear-gradient(
+     rgba(0, 0, 0, 0.4),
+     rgba(0, 0, 0, 0.4)
+     ),
+    url('../img/proba1.jpg');
+    background-size: contain;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+.header-image h1 { letter-spacing: 5px;}
+.header-image p { margin-top: 10px;}
+.header-image p a { color: white;}
+.header-image p a:hover { color: #104e8b;}
+/**********************************************
+                HEADER end
+**********************************************/
+/**********************************************
+                MAIN start Kontakt
+**********************************************/
+.poruka {
+    height: 650px;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin-top: 50px;
+    border: 2px solid #c1cdcd;
+}
+.logocestitamo {
+    padding-top: 60px;
+}
+#cestitamo {
+    padding: 80px 0 100px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+#nazad {
+    padding: 10px;
+    font-size: 25px;
+    background-color: #c1cdcd;
+    border: 0;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#nazad:hover {
+    cursor: pointer;
+    background-color: #104e8b;
+    color: white;
+}
+main .container { _outline:6px dotted green;}
+main .kontakt { margin: 50px auto 70px;}
+main .kontakt article {
+    _outline:2px dashed yellow;
+    height: 470px;
+}
+#header {
+    height: 100px;
+    _outline: 2px dotted green;
+}
+#follow { margin-top: 30px; margin-bottom: 15px;}
+article.contact-form { border: 3px solid #f0f0f0;}
+.c-1, .c-2, .c-3 {
+    float: left;
+    width:33.33%;
+    padding: 0 10px;
+    height: 445px;
+}
+.contact-form { padding: 20px;}
+.contact-form ul li {
+    padding: 10px 0px;
+    color: black;
+}
+.contact-form ul li.link {
+    margin-left: 30px;
+    color: #7d7d7d;
+}
+.contact-form ul a { color: #7d7d7d;}
+.contact-form ul li i {
+    padding-right:20px;
+    color: #104e8b;
+}
+.social-links {
+    padding-top: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+}
+.contact-form .social-links a {
+    display: inline-flex;
+    font-size: 20px;
+    /* background-color:#cd2626; */
+    color: #104e8b;
+    margin: 0 20px;
+    justify-content:  flex-start;
+    align-items: center;
+    transition: 0.1s;
+}
+.contact-form-text {
+    padding: 10px 20px;
+    color: #7d7d7d;
+}
+#posalji { margin-left: 115px;}
+#ispis1, #ispis2, #ispis3 { font-size: 12px;}
+label span { color:red;}
+.contact-form .button {
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 100px;
+    font-size: 18px;
+    background-color: #104e8b;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0;
+    padding: 13px 30px;
+    border:3px solid #104e8b;
+}
+.contact-form .button:hover {
+    background-color: white;
+    color: #104e8b;
+}
+.contact-form-text input {
+    width: 100%;
+    height: 40px;
+}
+.contact-form-text textarea {
+    width: 100%;
+    height: 88px;
+}
+.social-links a:hover { color: #030303;}
+.social-links a:hover > i {
+    transform: scale(1.6) rotateX(25deg);
+}
+.kontakt h2 {
+    /* width:365px; */
+    font-size: 32px;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #104e8b;
+    margin-bottom: 80px;
+    height: 43px;
+    text-transform: uppercase;
+}
+.kontakt .c-2 article {
+    background-color: #c1cdcd;
+    border: 3px solid #c1cdcd;
+}
+.c-2 .btn:link,
+.c-2 .btn-visited {
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 70px;
+    transition: all .4s;
+    position: relative;
+}
+.c-2 .btn {
+    margin-top: 10px;
+    margin-left: 90px;
+}
+.c-2 .btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 2px 7px #7d7d7d;
+}
+.c-2 .btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 1px 3px #7d7d7d;
+}
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 70px;
+    transition: all .3s;
+}
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+.btn-blue::after { background-color: #104e8b;}
+.btn-blue {
+    background-color: #104e8b;
+    color: white;
+}
+.c-3 iframe { border: 3px solid #f0f0f0;}
+#naslov-v { margin-bottom: 50px;}
+
+/**********************************************
+                MAIN end
+**********************************************/
+/**********************************************
+                FOOTER start
+**********************************************/
+footer {
+    _border-top: 2px solid white;
+    _outline: 1px dotted green;
+    background-color: black;
+    color: #7d7d7d;
+    height: 437px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.finish {
+    position: absolute;
+    left:42.7%;
+    top: -4%;
+    _outline: 1px dotted orange;
+}
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links a {
+    /* istrazi dobro ovo :D */
+    display: inline-flex;
+    width: 35px;
+    height: 35px;
+    /* background-color:#cd2626; */
+    background-color: #104e8b;
+    /*background-color:#454545;*/
+    color: white;
+    margin: 0 10px;
+    box-shadow: 1px 1px 2px #7d7d7d;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s;
+    font-size: 15px;
+}
+.links a:hover { color: #030303;}
+.links a:hover > i { transform: scale(1.6) rotateX(25deg);}
+.foot {
+    width: 100%;
+    background-color: #104e8b;
+}
+.footer-section {
+    padding-top: 80px;
+    height:300px;
+    _outline:1px dotted purple;
+}
+.footer-section article { _outline: 1px dotted pink;}
+.col-1-1, .col-1-2, .col-1-3, .col-1-4 {
+    float:left;
+    width:25%;
+    padding: 0px 20px;
+}
+.span {
+    color:white;
+    width: 100%;
+    font-size: 25px;
+}
+.col-1-1 p { font-size: 25px;}
+.col-1-1 p, .col-1-2 p, .col-1-3 p {
+    color:white;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+.col-1-4 p.hours { padding-bottom:7px;font-weight: normal;}
+.col-1-1 ul li {
+    padding:10px 0px;
+    color: #7d7d7d;
+}
+.col-1-1 ul li a { color: #7d7d7d;}
+.col-1-1 ul li i {
+    padding-right:20px;
+    color: #104e8b;
+}
+.col-1-3 ul li {
+    padding: 13px 0px;
+    border-bottom:1px dashed #454545;
+}
+.col-1-3 ul li a { color:#7d7d7d;}
+.col-1-3 ul li a:hover { color: #104e8b;}
+.col-1-4 .flex-item {
+    display: flex;
+    justify-content: space-between;
+    padding:10px 0px;
+    border-bottom: 1px dashed #454545;
+}
+.footer-politic small {
+    height: 59px;
+    width:100%;
+    margin-top: 70px;
+    background-color: #104e8b;
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-left: 30px;
+}
+.clearfix:after,
+.clearfix:before {
+    display: table;
+    content:" ";
+}
+.clearfix:after {
+    clear: both;
+}
+/**********************************************
+                FOOTER end
+**********************************************/
+/* O NAMA */
+
+main .col-1, main .col-2 {
+    float: left;
+    padding: 0 10px;
+    height: 640px;
+}
+.onama .col-1 { width: 60%;}
+.onama .col-2 { width: 39.99%;}
+.onama .col-1 .col-1{ width: 34.8%;}
+.onama .col-1 .col-2 { width: 65%;}
+.onama .col-1 .col-2 div {
+    border: 4px solid #f0f0f0;
+    height: 210px;
+    margin-right: 20px;
+}
+.onama .col-1 .col-2 div:hover {
+    border: 4px solid #104e8b;
+    transition: 1s;
+}
+.onama .col-1 .col-2 h3 {
+    padding: 20px 20px 0px;
+    color: #104e8b;
+}
+.onama .col-1 img {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.onama .col-2 article { height: 100%;}
+main article {
+    _outline: 1px dotted green;
+    height: 580px;
+}
+main .col-1 article p { padding: 0 20px 20px;}
+main div.onama h2 {
+    text-transform: uppercase;
+    font-size: 32px;
+    color: #104e8b;
+    height: 43px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.onama { margin: 50px 0;}
+.logo-federacija {
+    background-color: #f0f0f0;
+    height: 400px;
+    margin-bottom: 50px;
+    width: 100%;
+    _outline: 2px solid red;
+}
+.logo-federacija .row { padding-top: 50px;}
+.karate-federacije {
+    padding-top: 40px;
+    text-align: center;
+}
+.logo-federacija .heading-tertiary {
+    font-size: 45px;
+    color: #104e8b;
+    line-height: 1.4;
+    letter-spacing: 2px;
+    text-transform: none;
+}
+main div.statistika {
+    height: 300px;
+    _outline: 10px dotted green;
+    margin: 50px 0 0 0;
+    background: #104e8b;
+    color: white;
+}
+main div.statistika .row {
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+main div.statistika .num {
+    font-size: 22px;
+    margin-top: 40px;
+    color: black;
+    font-weight: bold;
+}
+.statistika .container div {
+    padding-top: 30px;
+}
+.num1, .num2, .num3, .num4{
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: white;
+}
+/*Icons*/
+.num-img1 {margin-left: 70px;margin-bottom: 20px;}
+.num-img2 {margin-left: 50px;margin-bottom: 20px;}
+.num-img3 {margin-left: 30px;margin-bottom: 20px;}
+.num-img4 {margin-left: 70px;margin-bottom: 20px;}
+/*Numbers*/
+.num1 {padding-left: 70px;}
+.num2 {padding-left: 20px;}
+.num3 {padding-left: 10px;}
+.num4 {padding-left: 40px;}
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+.galerija .container {
+    min-height: 900px;
+    _outline: 4px dashed red;
+    margin-bottom: 50px;
+}
+#index-gallery h2 {
+    text-transform: uppercase;
+    font-size: 32px;
+    color: black;
+    height: 43px;
+    letter-spacing: 3px;
+    text-align: center;
+    _margin-bottom: 80px;
+}
+#index-gallery .border {
+    width: 100px;
+    height: 6px;
+    background-color: #104e8b;
+    margin-bottom: 50px;
+    margin: 0 auto 50px;
+}
+#index-gallery {
+    display: grid;
+    /*how many columns*/
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px; /*razmak izmedju slika*/
+    grid-template-areas:
+    "gallery-h2 gallery-h2 gallery-h2 gallery-h2"
+    "gallery-border gallery-border gallery-border gallery-border"
+    "img1 img2 img3 img4"
+    "img5 img6 img3 img7"
+    "img8 img9 img10 img11"
+    "img12 img13 img14 img15";
+}
+#index-gallery .gallery-img {
+    _outline: 1px dashed red;
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+/*Images*/
+#index-gallery h2 { grid-area: gallery-h2;/*name*/}
+#index-gallery .border { grid-area: gallery-border;/*name*/}
+#index-gallery .img1 {
+    grid-area: img1; /*name*/
+    background-image: url('../imgGallery/img/img1.jpg');
+}
+#index-gallery .img2 {
+    grid-area: img2; /*name*/
+    background-image: url('../imgGallery/img/img2.jpg');
+}
+#index-gallery .img3 {
+    grid-area: img3; /*name*/
+    background-image: url('../imgGallery/img/img3.jpg');
+    height: 610px;
+}
+#index-gallery .img4 {
+    grid-area: img4; /*name*/
+    background-image: url('../imgGallery/img/img4.jpg');
+}
+#index-gallery .img5 {
+    grid-area: img5; /*name*/
+    background-image: url('../imgGallery/img/img5.jpg');
+}
+#index-gallery .img6 {
+    grid-area: img6; /*name*/
+    background-image: url('../imgGallery/img/img6.jpg');
+}
+#index-gallery .img7 {
+    grid-area: img7; /*name*/
+    background-image: url('../imgGallery/img/img7.jpg');
+}
+#index-gallery .img8 {
+    grid-area: img8; /*name*/
+    background-image: url('../imgGallery/img/img8.jpg');
+}
+#index-gallery .img9 {
+    grid-area: img9; /*name*/
+    background-image: url('../imgGallery/img/img9.jpg');
+    background-position: left;
+}
+#index-gallery .img10 {
+    grid-area: img10; /*name*/
+    background-image: url('../imgGallery/img/img10.jpg');
+}
+#index-gallery .img11 {
+    grid-area: img11; /*name*/
+    background-image: url('../imgGallery/img/img11.jpg');
+}
+#index-gallery .img12 {
+    grid-area: img12; /*name*/
+    background-image: url('../imgGallery/img/img12.jpg');
+}
+#index-gallery .img13 {
+    grid-area: img13; /*name*/
+    background-image: url('../imgGallery/img/img13.jpg');
+}
+#index-gallery .img14 {
+    grid-area: img14; /*name*/
+    background-image: url('../imgGallery/img/img14.jpg');
+}
+#index-gallery .img15 {
+    grid-area: img15; /*name*/
+    background-image: url('../imgGallery/img/img15.jpg');
+}
+/*Gallery image tittles*/
+.gallery-img div {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-img p {
+    font-size: 18px;
+    color: white;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    align-items: center;
+}
+.gallery-img div:hover {
+    background-color: black;
+    opacity: 0.8;
+    transition: all 100ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Popup window when clicked*/
+.img-window {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0,.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    /*centriramo fotografiju*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+.img-window img {
+    max-height: 80vh;
+    max-width: 80vw;
+}
+/*Next image*/
+.img-btn-next {
+    display: block;/*zato sto zelim da anchor tagu zadam margin, backcolor...*/
+    padding: 0px 10px;
+    border-radius: 4px;
+    background-color: #104e8b;
+    position: fixed;
+    top: 48vh;
+    font-size: 40px;
+    margin-right: 25px;
+    z-index: 200;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.img-btn-next:hover { opacity: .8;}
+/*Prev image*/
+.img-btn-prev {
+    display: block;/*zato sto zelim da anchor tagu zadam margin, backcolor...*/
+    padding: 0px 10px;
+    border-radius: 4px;
+    background-color: #104e8b;
+    position: fixed;
+    top: 48vh;
+    font-size: 40px;
+    margin-left: 25px;
+    z-index: 200;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.img-btn-prev:hover { opacity: .8;}
+.cards-list .card {
+    _outline: 5px dotted pink;
+    height: 530px;
+    width:30.33%;
+    background-color: #c1cdcd;
+    color: black;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 5px 6px  -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 6px -7px rgba(0,0,0,0.75);
+    box-shadow: 5px 6px  -7px rgba(0,0,0,0.75);
+}
+.cards-list .card h3 {
+    text-align: center;
+    color: black;
+    letter-spacing: 1px;
+    font-size: 28px;
+}
+.cards-list .card p {
+    padding: 20px;
+}
+.cards-list .rowt {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    align-items: center;
+}
+.cards-list .rowt h2 {
+    color: #104e8b;
+    background-color: white;
+    margin-left: 10px;
+    font-size: 32px;
+    letter-spacing: 3px;
+    height: 43px;
+    width:500px;
+    padding-left: 2px;
+}
+.cards-list .rowt p {
+    margin-top: 24px;
+    margin-right: 20px;
+}
+/***************************************
+                Karate page
+***************************************/
+main.karate, main.treninzi {
+    margin: 50px 0;
+}
+main.karate h2, main.treninzi .container h2 {
+    text-transform: uppercase;
+    font-size: 32px;
+    color: #104e8b;
+    height: 43px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.karate-content {
+    height: 490px;
+    _outline: 3px dotted green;
+    margin-bottom: 50px;
+}
+.karate-content--left {
+    float: left;
+    padding: 0 10px;
+    width: 43.332%;
+}
+.karate-content--right {
+    float: left;
+    width: 56.66%;
+    padding: 0px 10px;
+}
+.karate-content-img {
+    display: block;
+    width: 100%:
+}
+.heading-tertiary {
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.h-margin-bottom { margin-bottom: 10px;}
+.karate-content-text {
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.karate-citat {
+    height: 300px;
+    width: 100%;
+    background-color: #104e8b;
+}
+.karate-citat h2.heading-secondary-citat {
+    color: white;
+    font-style: italic;
+    line-height: 1.4;
+    letter-spacing: 2px;
+    text-transform: none;
+    padding-top: 50px;
+    height: 100px;
+    margin: 0;
+}
+.karate-citat h2.heading-secondary-citat .citat-navodnici { font-size: 45px;}
+.karate-citat .row { justify-content: space-between;}
+.row img.citat-img-logo {
+    display: inline-block;
+    margin-top: 70px
+}
+.row p.citat-autor {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 100px;
+}
+.podela-karatea {
+    margin-top: 30px;
+    background-color: #f0f0f0;
+}
+.podela-karatea .heading-tertiary {
+    margin-top: 20px;
+}
+.karate-content--right { padding: 0;}
+.podela-karatea-3 h2 {
+    margin-top: 50px;
+}
+.karate .podela-karatea-3 .border {
+    width:170px;
+    height: 6px;
+    background-color: #c1cdcd;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.pojasevi .container {
+    _outline: 1px dotted green;
+    height: 810px;
+    margin-top: 50px;
+}
+.col1, .col2 {
+    float: left;
+    padding: 0 10px;
+    height: 650px;
+    _outline: 2px dashed purple;
+}
+.button-change {
+    display: block;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    width: 130px;
+    padding: 10px;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.button-change:hover { transform: scale(1.1) rotateX(5deg);}
+.pojasevi .col1 {
+    width: 60%;
+    _border: 2px solid #f0f0f0;
+}
+.pojasevi .col1 img { margin-left: 70px;}
+.pojasevi .col2 {
+    _background-color: #f0f0f0;
+    width: 38.9%;
+}
+.col2 h3 { margin-top: 10px;}
+.col2  p {
+    padding: 0px 20px 10px;
+    text-align: justify;
+}
+.pojasevi .col2 .border {
+    width:100px;
+    height: 6px;
+    background-color: #c1cdcd;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+#b0 { background-color: white;color: black;box-shadow: 1px 1px 4px #7d7d7d;}
+#b1 { background-color: #fcf300;color: white;box-shadow: 1px 1px 4px #7d7d7d;}
+#b2 { background-color: #ff3030;color: white;box-shadow: 1px 1px 4px #7d7d7d;}
+#b3 { background-color: #66cd00;color: white;box-shadow: 1px 1px 4px #7d7d7d;}
+#b4 { background-color: #458b00;color: white;box-shadow: 1px 1px 4px #7d7d7d;}
+#b5 { background-color: #3a5fcd;color: white;box-shadow: 1px 1px 4px #7d7d7d;}
+#b6 { background-color: #27408b;color: white;box-shadow: 1px 1px 4px #7d7d7d;}
+#b7 { background-color: #ee7942;color: white;box-shadow: 1px 1px 4px #7d7d7d;}
+#b8 { background-color: #cd6839;color: white;box-shadow: 1px 1px 4px #7d7d7d;}
+#b9 { background-color: #8b4726;color: white;box-shadow: 1px 1px 4px #7d7d7d;}
+#b10 { background-color: black;color: white;box-shadow: 1px 1px 4px #7d7d7d;}
+.col1-zvanja, .col2-pojasevi {
+    float: left;
+    height: 500px;
+    _outline: 6px dotted green;
+    width: 49.9%;
+    padding: 0 10px;
+}
+.col1-zvanja p{
+    padding: 10px;
+    margin-bottom: 3px;
+    margin-left: 60px;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+.karate .jumbotron {
+   margin: 50px 0;
+   box-shadow: 1px 1px 1px 1px #7d7d7d;
+   height: 760px;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.8)), url(../img/pozadina-funakosi.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+.karate .jumbotron div.naslov {
+    _outline: 3px dotted red;
+    height: 210px;
+    color: white;
+}
+.karate .jumbotron .border {
+    width:170px;
+    height: 6px;
+    background-color: #104e8b;
+    margin: 10px auto;
+}
+.karate .jumbotron div.naslov h2 {
+    text-align: center;
+    padding-top: 130px;
+    font-size: 32px;
+    letter-spacing: 3px;
+    color: white;
+}
+.column-2 {
+    column-count: 2;
+    margin-top: 30px;
+}
+.column-2 p {
+    color: white;
+    padding: 10px;
+}
+/********************************
+           O MENI
+********************************/
+main.omeni .container {
+    margin: 50px auto;
+    _outline: 4px dotted green;
+}
+.omeni .col1, .omeni .col2 {
+    float: left;
+    padding: 0 10px;
+    width:49.998%;
+    position: relative;
+    height: 700px;
+    _outline:3px dotted yellow;
+}
+.omeni .col1 img {
+    margin-left: 50px;
+}
+.omeni div .licni-podaci-img {
+    border: 2px solid #f0f0f0;
+    box-shadow: 1px 1px 2px #7d7d7d;
+    position: absolute;
+    left: 38%;
+    border-radius: 50%;
+}
+.naslov-omeni {
+    padding-top: 150px;
+    padding-left: 170px;
+    letter-spacing: 1px;
+}
+.paragraph-omeni { margin-top: 20px;}
+main.omeni .licni-podaci .links a {
+    /* istrazi dobro ovo :D */
+    display: inline-flex;
+    width: 35px;
+    height: 35px;
+    background-color: #f0f0f0;
+    color: #666666;
+    margin: 0 10px;
+    box-shadow: none;
+    border: 1px solid #7d7d7d;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s;
+    font-size: 19px;
+    border-radius: 0;
+}
+.omeni .links a:hover { color: #030303;}
+.omeni .links a:hover > i { transform: scale(1.6) rotateX(25deg);}
+.email { color: blue;}
+.email:hover { color: #104e8b;}
+.mygalerija { background-color: #f0f0f0;}
+.mygalerija #obavestenje-p {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.mygalerija .container {
+    min-height: 680px;
+    _outline: 4px dashed red;
+    margin-bottom: 50px;
+}
+#index-mygallery h2 {
+    text-transform: uppercase;
+    font-size: 32px;
+    color: black;
+    height: 43px;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    text-align: center;
+    _margin-bottom: 80px;
+}
+#index-mygallery .border {
+    width: 100px;
+    height: 6px;
+    background-color: #104e8b;
+    margin: 0 auto 20px;
+}
+#index-mygallery {
+    display: grid;
+    /*how many columns*/
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* fr is a fractional unit and 1fr is for 1 part of the available space */
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    grid-template-areas:
+    "mygallery-h2 mygallery-h2 mygallery-h2 mygallery-h2"
+    "mygallery-border mygallery-border mygallery-border mygallery-border"
+    "mygallery-p mygallery-p mygallery-p mygallery-p"
+    "img1 img2 img3 img4";
+}
+#index-mygallery .gallery-img {
+    _outline: 1px dashed red;
+    width: 100%;
+    height: 440px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+/*Images*/
+#index-mygallery h2 { grid-area: mygallery-h2;/*name*/}
+#index-mygallery .border { grid-area: mygallery-border;/*name*/}
+#index-mygallery p {grid-area: mygallery-p;}
+#index-mygallery .img1 {
+    grid-area: img1; /*name*/
+    background-image: url('../myGallery/img/img1.jpg');
+}
+#index-mygallery .img2 {
+    grid-area: img2; /*name*/
+    background-image: url('../myGallery/img/img2.jpg');
+}
+#index-mygallery .img3 {
+    grid-area: img3; /*name*/
+    background-image: url('../myGallery/img/img3.jpg');
+}
+#index-mygallery .img4 {
+    grid-area: img4; /*name*/
+    background-image: url('../myGallery/img/img4.jpg');
+}
+/*Gallery image tittles*/
+.gallery-img div {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    /* ne vidi se sadrzaj trenutno */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-img p {
+    font-size: 18px;
+    color: white;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    align-items: center;
+}
+.gallery-img div:hover {
+    background-color: black;
+    opacity: 0.8;
+    /* sada se vidi sadrzaj div-a */
+    transition: all 100ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Popup window when clicked*/
+.myimg-window {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0,.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    /*centriramo fotografiju*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+.myimg-window img {
+    max-height: 80vh;
+    max-width: 80vw;
+}
+/***********************************
+            Treninzi
+***********************************/
+table.table-raspored {
+    width:1190px;
+    border-collapse: collapse; /*linije*/
+    margin: 0 10px;
+    height: 400px;
+    border: 1px solid #ddd;
+    margin-bottom: 50px;
+}
+table.table-raspored th {
+    background-color: #104e8b;
+    color: white;
+    letter-spacing: 2px;
+    width: 14.1%;
+}
+table.table-raspored td {
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: #7d7d7d;
+}
+table.table-raspored th {text-align: center;}
+table.table-raspored tr:hover {background-color: #ddd;}
+.table-raspored-backcolor {background-color: #f0f0f0;}
+main.treninzi .treninzi-citat {
+    height: 270px;
+    width: 100%;
+    background-color: #104e8b;
+    margin-bottom: 50px;
+}
+main.treninzi .treninzi-citat h2.heading-secondary-citat {
+    color: white;
+    font-style: italic;
+    line-height: 1.4;
+    letter-spacing: 2px;
+    text-transform: none;
+    padding-top: 50px;
+    height: 100px;
+    margin: 0;
+}
+main.treninzi .treninzi-citat h2.heading-secondary-citat span.citat-navodnici {
+    font-size: 45px;
+}
+p.citat-autor-brusli {
+    margin-left: 1010px;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 100px;
+}
+.cesta-pitanja .container .col1, .cesta-pitanja .container .col2 {
+    float: left;
+    padding: 0 10px;
+    _outline: 2px dotted red;
+}
+.cesta-pitanja .container .col1 { width: 52%;}
+.cesta-pitanja .container .col2 { width: 47.9%; padding-left: 30px;}
+.cesta-pitanja .container {
+    height: auto;
+    _outline: 3px dotted green;
+}
+.cesta-pitanja { height: 1100px;background-color: #f0f0f0;width:100%;}
+.cesta-pitanja .container {
+    min-height: 970px;
+    _outline: 3px dotted green;
+}
+.cesta-pitanja h2 { padding-top: 20px;}
+.cesta-pitanja span {
+    display: inline-block;
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 1px;
+    padding-left: 3px;
+    margin-right: 9px;
+    font-weight: 800;
+    border: 3px solid #104e8b;
+}
+.col1-paragraph {
+    font-size: 14px;
+    font-style: italic;
+    text-align: left;
+    margin: 10px 0 10px;
+}
+.accordion {
+    background-color: white;
+    margin: 0 0 14px;
+    border-radius: 15px;
+   -webkit-box-shadow: 0px 3px -2px #c7c7c7;
+}
+.collapsible {
+    background-color: white;
+    color: black;
+    -webkit-box-shadow: 0px 3px -2px #c7c7c7;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    min-height: 58px;
+    border-radius: 15px;
+}
+.collapsible::after {
+    content: '\25be'; /*strelica nadole, po difoltu*/
+    float: right;
+    color: 	#5c5c5c;
+    transform: scale(1.5);
+}
+.cesta-pitanja .active:after {
+   content: "\25b4"; /*strelica nagore, "click"*/
+}
+.cesta-pitanja .active, .collapsible:hover {
+   background-color: #c1cdcd;
+}
+.content {
+   padding: 10px 0px 20px;
+   display: none;
+   /*element je nevidljiv i drugi elementi popunjavaju njegovo mesto u regularnom toku*/
+   overflow: hidden;
+   margin: 0 0 8px;
+   min-height: 70px; /*visina se povecava shodno visini sadrzaja*/
+   width: 500px; /*sirina je uvek ista*/
+}
