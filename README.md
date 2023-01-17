@@ -1,2 +1,2 @@
-# Karate-klub-Tutin
+# Web design
 Projekat iz Web dizajna.
